@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: golden-leaf-survivors
+    runtime: node
+    plan: free
+    buildCommand: echo "nothing to build"
+    startCommand: node server.js
